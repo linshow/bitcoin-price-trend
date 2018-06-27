@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteBase /codeigniter-3.1.5
+RewriteCond $1 !^(index\.php|assets|images|robots\.txt|$)
+RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+
+
+
